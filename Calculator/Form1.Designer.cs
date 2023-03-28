@@ -206,6 +206,7 @@
             this.dotBtn.TabIndex = 15;
             this.dotBtn.Text = "button1";
             this.dotBtn.UseVisualStyleBackColor = true;
+            this.dotBtn.Click += new System.EventHandler(this.dotBtn_Click);
             // 
             // equalBtn
             // 
