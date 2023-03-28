@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Globalization;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -13,6 +14,7 @@ namespace Calculator
 {
     public partial class Form1 : Form
     {
+        string op = string.Empty;
         public Form1()
         {
             InitializeComponent();
@@ -51,9 +53,11 @@ namespace Calculator
                 string[] Nums = numbers.Split(op);
                 for (int i = 0; i < Nums.Length-1; i++)
                 {
+                    // i is the first number
                     for (int j = 1; j <= Nums.Length-1; j++) 
                     {
-                        if(mode == " + ")
+                        // j is the second number
+                        if(mode == "+")
                         {
                             result = float.Parse(Nums[i]) + float.Parse(Nums[j]);   
                         }
@@ -66,7 +70,6 @@ namespace Calculator
             return result;
 
         }
-
 
         private void clearBtn_Click(object sender, EventArgs e)
         {
@@ -140,32 +143,37 @@ namespace Calculator
         private void modulusBtn_Click(object sender, EventArgs e)
         {
             screen.AppendText(" % ");
+            op = "%";
         }
 
         private void divideBtn_Click(object sender, EventArgs e)
         {
             screen.AppendText(" / ");
+            op = "/";
         }
 
         private void multiplyBtn_Click(object sender, EventArgs e)
         {
-            screen.AppendText(" *");
+            screen.AppendText(" * ");
+            op = "*";
         }
 
         private void subBtn_Click(object sender, EventArgs e)
         {
             screen.AppendText(" - ");
+            op ="-";
         }
 
         private void addBtn_Click(object sender, EventArgs e)
         {
             screen.AppendText(" + ");
+            op ="+";
 
         }
 
         private void equalBtn_Click(object sender, EventArgs e)
         {
-            screen.Text = Convert.ToString(Calculate(" + "));
+            screen.Text = Convert.ToString(Calculate(op));
         }
     }
 }
