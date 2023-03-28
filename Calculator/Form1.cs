@@ -14,12 +14,8 @@ namespace Calculator
 {
     public partial class Form1 : Form
     {
-<<<<<<< HEAD
         string op = string.Empty;
-=======
-  
 
->>>>>>> John
         public Form1()
         {
             InitializeComponent();
@@ -50,7 +46,7 @@ namespace Calculator
             screen.ReadOnly = true;
         }
 
-<<<<<<< HEAD
+
         public float Calculate(string mode)
         {
             float result = 0;
@@ -183,7 +179,7 @@ namespace Calculator
         {
             screen.Text = Convert.ToString(Calculate(op));
         }
-=======
+
 
 
         public double modulus(double num1, double num2)
@@ -196,6 +192,6 @@ namespace Calculator
             return num1 / num2;
         }
 
->>>>>>> John
+
     }
 }
