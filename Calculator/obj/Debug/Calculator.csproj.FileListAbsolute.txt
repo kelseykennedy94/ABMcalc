@@ -9,14 +9,14 @@ D:\repo\CSharp Folder\Calculator\Calculator\obj\Debug\Calculator.csproj.Generate
 D:\repo\CSharp Folder\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 D:\repo\CSharp Folder\Calculator\Calculator\obj\Debug\Calculator.exe
 D:\repo\CSharp Folder\Calculator\Calculator\obj\Debug\Calculator.pdb
-C:\Users\Admin\Desktop\GitRepos\Calculator\Calculator\bin\Debug\Calculator.exe.config
-C:\Users\Admin\Desktop\GitRepos\Calculator\Calculator\bin\Debug\Calculator.exe
-C:\Users\Admin\Desktop\GitRepos\Calculator\Calculator\bin\Debug\Calculator.pdb
-C:\Users\Admin\Desktop\GitRepos\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
-C:\Users\Admin\Desktop\GitRepos\Calculator\Calculator\obj\Debug\Calculator.csproj.SuggestedBindingRedirects.cache
-C:\Users\Admin\Desktop\GitRepos\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
-C:\Users\Admin\Desktop\GitRepos\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
-C:\Users\Admin\Desktop\GitRepos\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
-C:\Users\Admin\Desktop\GitRepos\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Desktop\GitRepos\Calculator\Calculator\obj\Debug\Calculator.exe
-C:\Users\Admin\Desktop\GitRepos\Calculator\Calculator\obj\Debug\Calculator.pdb
+D:\collab2 repo\Calculator\Calculator\bin\Debug\Calculator.exe.config
+D:\collab2 repo\Calculator\Calculator\bin\Debug\Calculator.exe
+D:\collab2 repo\Calculator\Calculator\bin\Debug\Calculator.pdb
+D:\collab2 repo\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+D:\collab2 repo\Calculator\Calculator\obj\Debug\Calculator.csproj.SuggestedBindingRedirects.cache
+D:\collab2 repo\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+D:\collab2 repo\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+D:\collab2 repo\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+D:\collab2 repo\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+D:\collab2 repo\Calculator\Calculator\obj\Debug\Calculator.exe
+D:\collab2 repo\Calculator\Calculator\obj\Debug\Calculator.pdb
