@@ -12,6 +12,8 @@ namespace Calculator
 {
     public partial class Form1 : Form
     {
+        private string mode;
+
         public double add(double num1, double num2)
         {
             return num1 + num2;
