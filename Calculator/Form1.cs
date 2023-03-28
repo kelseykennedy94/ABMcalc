@@ -12,6 +12,7 @@ namespace Calculator
 {
     public partial class Form1 : Form
     {
+        string ScreenText = String.Empty;
         public Form1()
         {
             InitializeComponent();
@@ -39,6 +40,52 @@ namespace Calculator
             divideBtn.Text = "÷";
             negposBtn.Text = "+/-";
             dotBtn.Text = ".";
+        }
+        public void Clear()
+        {
+
+        }
+        public void Add()
+        {
+
+        }
+        public void Subtract()
+        {
+
+        }
+        public void Multiply()
+        {
+
+        }
+        public void Divide()
+        {
+
+        }
+        public void Modulo()
+        {
+
+        }
+        public void Symbols(string Symbol)
+        {
+            switch (Symbol)
+            {
+                case " + ":
+                    ScreenText = ScreenText + " + ";
+                    break;
+                case " - ":
+                    ScreenText = ScreenText + " - ";
+                    break;
+                case " * ":
+                    ScreenText = ScreenText + " * ";
+                    break;
+                case " / ":
+                    ScreenText = ScreenText + " / ";
+                    break;
+                case " % ":
+                    ScreenText = ScreenText + " % ";
+                    break;
+            }
+
         }
     }
 }
